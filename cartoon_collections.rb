@@ -2,6 +2,7 @@ def roll_call_dwarves(dwarves)
   index = 0
   while index < dwarves.size do
     puts "#{index}. #{dwarves[index]}"
+    index += 1
   end
 end
 
